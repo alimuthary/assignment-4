@@ -1,0 +1,171 @@
+
+
+.navbar{
+    background-color: purple !important;
+
+}
+
+.nav-link{
+    color: white !important;
+
+    font-family: Arial,sans-serif!important;
+    font-style: italic;
+    
+}
+
+
+
+.fa-user-circle, .fa-shopping-cart{
+    font-size: 28px !important  ;
+}
+
+.nav-item:hover, .nav-item:active{
+    
+    font-size: larger !important;
+    transition: ease-in-out;
+    transition-duration: .2s ;
+}
+
+marquee{
+    margin-top: 5px;
+    background-color: royalblue;
+    color: white;
+}
+
+.feat-cat h2, .top-sale h2{
+    color: black;
+    text-align: center;
+    font-size: 35px !important;
+   
+    
+    
+}
+
+.featured-categories{
+    margin: 50px 0;
+    
+}
+
+.featured-categories img{
+    width: 100%;
+    /* margin-top: -50px; */
+    padding: 10px 0;
+    transition: 1s;
+    cursor: pointer;
+
+}
+
+.featured-categories img:hover{
+    opacity: 0.7;
+    transform: scale(1.1)
+    
+
+}
+
+.card{
+   width: 100% !important;
+   height: auto;
+   margin-bottom: 20px;
+   text-align: center !important;
+   margin-top: 5px;
+}
+
+
+.footer{
+    margin-top: 10px;
+    width: 100%;
+    height: 250px;
+    background-color: gray;
+    color: white;
+    padding: 0px;
+}
+
+.footer h6, h4{
+    color: black;
+}
+
+.footer p{
+    cursor: pointer;
+}
+
+.fa-phone, .fa-globe, .fa-info-circle{
+    color: purple;
+}
+
+
+.text-info{
+    color: white !important;       
+}
+#login .container #login-row #login-column #login-box {
+    margin-top: 10px;
+    margin-bottom: 80px;
+    max-width: 600px;
+    height: 320px;
+    border: 3px solid black;
+    background-color: rgba(128, 0, 128, 0.89);
+  }
+  #login .container #login-row #login-column #login-box #login-form {
+    padding: 20px;
+    
+  }
+  #login .container #login-row #login-column #login-box #login-form #register-link {
+    margin-top: -85px;
+    
+  }
+  #add , .add-to-card{
+      margin: 20px;
+      margin-left: 70px;
+  }
+  .cont-image img{
+      height: 500px !important;
+      width: auto !important;
+  }
+
+  .col-12 img{
+      margin: 5px;
+  }
+
+  .basket{
+      margin: 20px;
+      margin-bottom: 80px;
+      font-size: 250px;
+  }
+
+
+
+
+ @media only screen and (max-width:700px){
+    .featured-categories img{
+        width: 70% !important;
+        margin-left: 50px !important;
+    }
+    .feat-cat h2, .top-sale h2{
+        font-size: 30px !important;
+    }
+    .footer{
+        height: 430px;
+    }
+    #add , .add-to-card{
+        margin: 5px;
+        margin-left: 5px;
+    }
+    .cont-image img{
+        margin-left: 15px !important;
+        height: 400px !important;
+        width: auto !important;
+    }
+  
+    .col-12 img{
+        margin: 5px;
+        height: 80px;
+        width: 80px;
+    }
+    .basket{
+        margin: 20px;
+        margin-bottom: 80px;
+        font-size: 150px;
+    }
+    .basket h4{
+        font-size: medium;
+    }
+} 
